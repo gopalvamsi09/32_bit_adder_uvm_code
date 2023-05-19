@@ -1,0 +1,12 @@
++incdir+../../src/hvl_top/test/sequences
++incdir+../../src/hvl_top/agent
++incdir+../../src/hvl_top/env
++incdir+../../src/hvl_top/test
+../../src/globals/adder_global_pkg.sv
+../../src/hvl_top/agent/adder_agent_pkg.sv
+../../src/hvl_top/test/sequences/adder_seq_pkg.sv
+../../src/hvl_top/env/adder_env_pkg.sv
+../../src/hvl_top/test/adder_base_test_pkg.sv
+../../src/hvl_top/adder_if.sv
+../../src/hvl_top/adder_dut.v
+../../src/hvl_top/hvl_top.sv
