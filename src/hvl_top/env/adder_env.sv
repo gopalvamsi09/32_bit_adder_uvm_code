@@ -58,7 +58,7 @@ endclass
   //Connects monitor analysis export to scoreboard analysis fifo export
   //--------------------------------------------------------------------------------------------
   function void adder_env::connect_phase(uvm_phase phase);
-    super.build_phase(phase);
+    super.connect_phase(phase);
 
     if(adder_env_cfg_h.has_scoreboard) begin
       adder_agent_h.adder_mon_h.adder_mon_ap_h.connect(adder_sb_h.adder_sb_analysis_fifo.analysis_export);
